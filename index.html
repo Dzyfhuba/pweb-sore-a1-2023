@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teknik Informatika UMG</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    nav {
+      background-color: blue;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px;
+      display: inline-block;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .kuning {
+      color: yellow;
+    }
+    .merah {
+      color: red;
+    }
+    #test {
+      text-transform: uppercase;
+    }
+    #menu_trigger {
+      display: none;
+    }
+    @media (max-width: 700px) {
+      nav a {
+        display: none;
+      }
+      #menu_trigger {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Beranda</a>
+    <a href="#">Profil</a>
+    <a href="#">Pendidikan</a>
+    <a href="#">Fasilitas</a>
+    <a href="#">Kemahasiswaan</a>
+    <a href="#">Download Dokumen</a>
+    <a href="#">Mahasiswa Baru</a>
+    <button id="menu_trigger">=</button>
+  </nav>
+</body>
+</html>
