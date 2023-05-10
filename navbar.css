@@ -1,0 +1,43 @@
+nav {
+  background-color: #1C64AC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 0 8px;
+  position: sticky;
+  top: 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  display: inline-block;
+}
+nav * {
+  color: #fff;
+}
+nav img {
+  height: 100%;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+#menu_trigger {
+  display: none;
+}
+#search img {
+  height: 70%;
+}
+@media (max-width: 768px) {
+  nav .menu-list {
+    display: none;
+  }
+  #menu_trigger {
+    display: block;
+  }
+  nav button {
+    display: block;
+    height: 44px;
+  }
+}

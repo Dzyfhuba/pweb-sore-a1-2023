@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+button {
+  min-width: 44px;
+  min-height: 44px;
+  background-color: transparent;
+  border: none;
+  height: 44px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button img {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  padding: 0 8px;
+}
+
+.content a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-weight: 900;
+}
+
+.content a:hover {
+  color: #1C64AC;
+}
+
+.content ul {
+  padding: 0;
+}
+
+.content li {
+  list-style: none;
+}

@@ -1,60 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teknik Informatika UMG</title>
-  <style>
-    body {
-      margin: 0;
-    }
-    nav {
-      background-color: blue;
-      display: flex;
-      justify-content: center;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      padding: 8px;
-      display: inline-block;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    .kuning {
-      color: yellow;
-    }
-    .merah {
-      color: red;
-    }
-    #test {
-      text-transform: uppercase;
-    }
-    #menu_trigger {
-      display: none;
-    }
-    @media (max-width: 700px) {
-      nav a {
-        display: none;
-      }
-      #menu_trigger {
-        display: block;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="hero.css">
 </head>
+
 <body>
+  <header>
+    <img src="images/tif-logo.png" alt="tif umg">
+  </header>
   <nav>
-    <a href="#">Beranda</a>
-    <a href="#">Profil</a>
-    <a href="#">Pendidikan</a>
-    <a href="#">Fasilitas</a>
-    <a href="#">Kemahasiswaan</a>
-    <a href="#">Download Dokumen</a>
-    <a href="#">Mahasiswa Baru</a>
-    <button id="menu_trigger">=</button>
-  </nav>
+    <div class="menu-list">
+      <a href="#">Beranda</a>
+      <a href="#">Profil</a>
+      <a href="#">Pendidikan</a>
+      <a href="#">Fasilitas</a>
+      <a href="#">Kemahasiswaan</a>
+      <a href="#">Download Dokumen</a>
+      <a href="#">Mahasiswa Baru</a>
+    </div>
+    <button id="menu_trigger">
+      <img src="images/hamburger-menu.svg" alt="menu">
+    </button>
+    <button id="search">
+      <img src="images/search.svg" alt="search">
+    </nav>
+
+  </button>
+  <section id="hero">
+    <img src="images/info-pmb_2.jpg" alt="info pmb">
+  </section>
+  <main>
+    <section id="berita" class="content">
+      <h2>
+        Berita Terkini
+      </h2>
+      <ul>
+        <li>
+          <a href="#">HIMATIF GOES TO SCHOOL 2023 Part1</a>
+          <small>03 Februari 2023</small>
+        </li>
+        <li>
+          <a href="#">HIMATIF GOES TO SCHOOL 2023 Part1</a>
+          <small>03 Februari 2023</small>
+        </li>
+        <li>
+          <a href="#">HIMATIF GOES TO SCHOOL 2023 Part1</a>
+          <small>03 Februari 2023</small>
+        </li>
+        <li>
+          <a href="#">HIMATIF GOES TO SCHOOL 2023 Part1</a>
+          <small>03 Februari 2023</small>
+        </li>
+      </ul>
+    </section>
+    <section id="kegiatan" class="content">
+      <h2>
+        Kegiatan Terkini
+      </h2>
+      <ul>
+        <li>
+          <a href="#">HIMATIF GOES TO SCHOOL 2023 Part1</a>
+          <small>03 Februari 2023</small>
+        </li>
+        <li>
+          <a href="#">HIMATIF GOES TO SCHOOL 2023 Part1</a>
+          <small>03 Februari 2023</small>
+        </li>
+        <li>
+          <a href="#">HIMATIF GOES TO SCHOOL 2023 Part1</a>
+          <small>03 Februari 2023</small>
+        </li>
+        <li>
+          <a href="#">HIMATIF GOES TO SCHOOL 2023 Part1</a>
+          <small>03 Februari 2023</small>
+        </li>
+      </ul>
+    </section>
+    <section id="pengumuman" class="content">
+      <h2>
+        Pengumuman Terkini
+      </h2>
+      <ul>
+        <li>
+          <a href="#">HIMATIF GOES TO SCHOOL 2023 Part1</a>
+          <small>03 Februari 2023</small>
+        </li>
+        <li>
+          <a href="#">HIMATIF GOES TO SCHOOL 2023 Part1</a>
+          <small>03 Februari 2023</small>
+        </li>
+        <li>
+          <a href="#">HIMATIF GOES TO SCHOOL 2023 Part1</a>
+          <small>03 Februari 2023</small>
+        </li>
+        <li>
+          <a href="#">HIMATIF GOES TO SCHOOL 2023 Part1</a>
+          <small>03 Februari 2023</small>
+        </li>
+      </ul>
+    </section>
+  </main>
 </body>
+
 </html>
