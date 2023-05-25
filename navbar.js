@@ -10,7 +10,7 @@ menu_trigger.addEventListener('click', () => {
     menu.setAttribute('style', 'display: block')
   }
   show = !show
-  console.log('click')
+  // console.log('click')
 })
 
 // dasar
@@ -19,11 +19,11 @@ const bilanganB = NaN
 
 // fungsi
 function fungsi1() {
-  console.log('fungsi 1')
+  // console.log('fungsi 1')
 }
 
 const fungsi2 = () => {
-  console.log('fungsi 2')
+  // console.log('fungsi 2')
 }
 
 fungsi1()
@@ -35,14 +35,14 @@ const kambing = {
   kaki: 4,
   makan: 'herbivora',
   berlari: () => {
-    console.log('kambing berlari')
+    // console.log('kambing berlari')
   }
 }
 
-console.log(kambing)
+// console.log(kambing)
 
 kambing.makan = 'rumput'
-console.log(kambing)
+// console.log(kambing)
 
 kambing.berlari()
 
